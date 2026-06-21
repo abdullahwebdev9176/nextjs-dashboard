@@ -1,6 +1,6 @@
 import './globals.css';
 
-import { Black_Ops_One, Inter, Merriweather  } from 'next/font/google';
+import { Black_Ops_One, Inter, Lusitana , Merriweather  } from 'next/font/google';
 
 const blackOps   = Black_Ops_One ({
   subsets: ['latin'],
@@ -23,13 +23,20 @@ const merriweather   = Merriweather ({
   variable: '--font-merriweather',
 });
 
+const lusitana   = Lusitana ({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
+  variable: '--font-lusitana',
+});
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${blackOps.variable} ${inter.variable} ${merriweather.variable}`}>
+    <html lang="en" className={`${blackOps.variable} ${inter.variable} ${merriweather.variable} ${lusitana.variable}`}>
       <body>{children}</body>
     </html>
   );

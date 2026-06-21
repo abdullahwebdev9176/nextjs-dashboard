@@ -22,6 +22,7 @@ const config: Config = {
         blackOps: ['var(--font-black-ops-one)'],
         inter: ['var(--font-inter)'],
         merriweather: ['var(--font-merriweather)'],
+        lusitana: ['var(--font-lusitana)'],
       },
     },
     keyframes: {
