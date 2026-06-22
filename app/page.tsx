@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col p-6">
-      
+    <main className="min-h-screen p-6">
+        <h1 className="text-center text-3xl font-bold text-red-900">Muhammad Abdullah</h1>
     </main>
   );
 }
