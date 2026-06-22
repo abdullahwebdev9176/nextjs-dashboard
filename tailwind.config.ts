@@ -18,6 +18,10 @@ const config: Config = {
           600: '#2F6FEB',
         },
       },
+      fontFamily: {
+        blackOps: ['var(--font-black-ops-one)'],
+        inter: ['var(--font-inter)'],
+      },
     },
     keyframes: {
       shimmer: {
