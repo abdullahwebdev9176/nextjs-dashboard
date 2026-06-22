@@ -21,6 +21,7 @@ const config: Config = {
       fontFamily: {
         blackOps: ['var(--font-black-ops-one)'],
         inter: ['var(--font-inter)'],
+        merriweather: ['var(--font-merriweather)'],
       },
     },
     keyframes: {
